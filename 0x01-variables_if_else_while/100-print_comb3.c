@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - program entry point
- * Return: 0 if successful
+ * Return:0 success, non zero faie
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 				putchar(i);
 				putchar(j);
 			}
-			if (i != j)
+			if (i == j)
 			{
 				continue;
 			}
